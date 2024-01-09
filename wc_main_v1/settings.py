@@ -85,14 +85,14 @@ WSGI_APPLICATION = 'wc_main_v1.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-        #'ENGINE': 'django.db.backends.postgresql',
-        #'NAME': 'railway',
-        #'USER': 'postgres',
-        #'PASSWORD': 'acg4*1*e5BFD2C35b2c33C*613Bd*2-b',
-        #'HOST': 'roundhouse.proxy.rlwy.net',
-        #'PORT': '16543',
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'Ce*5*a364a*efgABb3-b5cae2GACdGAb',
+        'HOST': 'viaduct.proxy.rlwy.net',
+        'PORT': '55524',
     }
 }
 prod_db  =  dj_database_url.config(conn_max_age=500)

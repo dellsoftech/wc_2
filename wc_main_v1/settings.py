@@ -18,7 +18,7 @@ import dj_database_url
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://web-production-ebfd.up.railway.app'
+    'https://web-production-262e.up.railway.app'
 ]
 
 # Quick-start development settings - unsuitable for production
@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-e*+je+$5hnt^=i#vd77k31j-euzrhorks*3__o1+4&q^f8k!bt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['web-production-ebfd.up.railway.app', '127.0.0.1']
+ALLOWED_HOSTS = ['web-production-262e.up.railway.app', '127.0.0.1']
 
 
 # Application definition
